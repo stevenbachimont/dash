@@ -1,0 +1,41 @@
+/* src/App.css */
+
+#root {
+  width: 100%;
+  margin: 2rem auto;
+  margin-left: 1rem;
+  margin-right: 3rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+}
+
+.calendar, .web-viewer {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+
+}
+
+.calendar {
+  padding: 1rem;
+  width: 100%;
+  background-color: #1a1a1a;
+  height: 70vh;
+}
+
+.web-viewer {
+  padding: 1rem;
+  width: 100%;
+  background-color: #1a1a1a;
+  height: 70vh;
+}
+
+.web-viewer iframe {
+  width: 100%;
+  border: none;
+}
